@@ -1,0 +1,41 @@
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes stretchanim {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05, 0.95);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes clearall{
+	0% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 0.6;
+	}
+	50% {
+		opacity: 0.1;
+	}
+	75% {
+		opacity: 0.6;
+	}
+	100% {
+		opacity: 1;
+	}
+}
