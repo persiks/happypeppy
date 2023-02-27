@@ -44,7 +44,7 @@
     &__content {
         margin-top: 60px;
         display: none;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
         &_active {
             display: flex;
@@ -74,24 +74,21 @@
         }
         &__subtitle {
             margin-top: 20px;
-            margin-right: 17px;
             color: #0d0d0d;
             font-size: 16px;
             font-weight: 700;
             text-align: center;
         }
         &__descr {
-            margin-right: 17px;
             margin-top: 5px;
             color: #0d0d0d;
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 300;
             text-align: center;
         }
         &__tolink {
             display: block;
             color: $main-color;
-            margin-right: 17px;
             font-size: 14px;
             font-weight: 500;
             text-align: center;
@@ -127,10 +124,10 @@
         }
         &__wrapper {
             display: flex;
-            width: calc(200% + 40px);
+            width: calc(100%);
         }
         &__content {
-            width: 50%;
+            width: 100%;
             margin-right: 0px;
             transform: translateX(-100%);
             transition: 0.5s all;
