@@ -54,9 +54,9 @@ $(document).ready(function(){
             $('.overlay, #order').fadeIn('slow');
         })
     });
-    //modal-window закрытие по модального окна по клику вне
+    //modal-window закрытие по модального окна по клику вне окна
     $(document).mouseup( function(e) { 
-		const div = $( "#consultation" );
+		const div = $( "#consultation, #thanks, #order");
 		if ( !div.is(e.target)
 		    && div.has(e.target).length === 0 ) {
             $('.overlay, #consultation, #thanks, #order').fadeOut('slow');
