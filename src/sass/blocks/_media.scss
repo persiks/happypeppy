@@ -45,6 +45,9 @@
     .menu_item {
         padding-right: 30px;
     }
+    .title_left {
+        font-size: 26px;
+    }
     .carousel .slick-next img, .carousel .slick-prev img {
         display: none;
     }
@@ -126,9 +129,6 @@
     .title {
         font-size: 16px;
     }
-    .title_left {
-        font-size: 14px;
-    }
     .advantages__wrapper {
         display: grid;
     }
@@ -144,6 +144,9 @@
     .promo__subheader {
         margin-top: 0px;
         font-size: 12px;
+    }
+    .title_left {
+        font-size: 14px;
     }
     .consultation__descr {
         font-size: 12px;
