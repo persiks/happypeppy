@@ -117,7 +117,7 @@ $(document).ready(function(){
 
     //Smooth scroll and pageup
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 1140) {
+        if ($(this).scrollTop() > 700) {
             $('.pageup').fadeIn();
         } else {
             $('.pageup').fadeOut();
