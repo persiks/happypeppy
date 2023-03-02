@@ -123,11 +123,14 @@
             }
         }
     }
+    .title {
+        font-size: 16px;
+    }
+    .title_left {
+        font-size: 14px;
+    }
     .advantages__wrapper {
         display: grid;
-    }
-    .feed__descr {
-        font-size: 10px;
     }
     .subheader__official {
         font-size: 10px;
@@ -142,8 +145,8 @@
         margin-top: 0px;
         font-size: 12px;
     }
-    .title {
-        font-size: 16px;
+    .consultation__descr {
+        font-size: 12px;
     }
     .catalog__tab {
         width: 100px;
@@ -160,6 +163,9 @@
     }
     .warranty__descr {
         font-size: 16px;
+    }
+    .feed__descr {
+        font-size: 10px;
     }
     .feed__item:nth-child(2) {
         margin-top: 40px;
