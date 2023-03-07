@@ -15,6 +15,10 @@
     margin: 0 auto;
 }
 
+.privacy {
+    padding: 20px 0 20px 0;
+}
+
 @import 'blocks/header';
 @import 'blocks/promo';
 @import 'blocks/subheader';
@@ -32,5 +36,6 @@
 @import 'blocks/addresses';
 @import 'blocks/footer';
 @import 'blocks/modal';
+@import 'blocks/about';
 @import 'blocks/pageup';
 @import 'blocks/media';

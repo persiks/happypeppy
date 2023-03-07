@@ -43,6 +43,10 @@
         padding-left: 6%;
         padding-right: 6%;
     }
+    .privacy {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
 }
 
 @media (max-width: 992px) {
@@ -199,5 +203,11 @@
     }
     .footer_links_sub a {
         font-size: 7px;
+    }
+    .about_company {
+        font-size: 22px;
+    }
+    .about_company a {
+        font-size: 12px;
     }
 }
