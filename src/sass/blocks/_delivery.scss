@@ -5,12 +5,15 @@
     .title {
         padding-bottom: 30px;
     }
-    &__detail {
-        font-size: 22px;
-        font-weight: 700;
-    }
     &__descr {
         font-size: 18px;
         font-weight: 500;
+        a {
+            color: $main-color;
+        }
+    }
+    &__detail {
+        font-size: 22px;
+        font-weight: 700;
     }
 }
