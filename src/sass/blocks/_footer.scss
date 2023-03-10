@@ -26,7 +26,12 @@
                 font-size: 15px;
                 font-weight: 300;
                 text-transform: uppercase;
+				transition: 0.7s all ease-in;
             }
+			:hover {
+				color: $main-color;
+				transition: all 1.0s;
+			}
         }
 		&_sub {
             display: flex;
@@ -38,7 +43,12 @@
 				font-size: 11px;
 				font-weight: 300;
 				text-transform: uppercase;
+				transition: 0.7s all ease-in;
             }
+			:hover {
+				color: $main-color;
+				transition: all 1.0s;
+			}
         }
 
 		&_company {

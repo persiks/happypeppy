@@ -35,6 +35,10 @@
         padding-left: 6%;
         padding-right: 6%;
     }
+    .services {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
     .feed {
         padding-left: 6%;
         padding-right: 6%;
@@ -74,6 +78,9 @@
     }
     .feed__descr {
         font-size: 12px;
+    }
+    .services__img img {
+        margin: 30px 10px 0 10px;
     }
 }
 
@@ -181,6 +188,16 @@
     }
     .warranty__descr {
         font-size: 16px;
+    }
+    .services__detail {
+        font-size: 16px;
+    }
+    .services__descr {
+        font-size: 16px;
+    }
+    .services__img img {
+        width: 110px;
+        margin: 30px 5px 0 5px;
     }
     .feed__subtitle {
         font-size: 16px;
