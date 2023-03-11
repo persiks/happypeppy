@@ -187,3 +187,8 @@ window.addEventListener('DOMContentLoaded', () => {
         })
     })
 })
+
+//вернуться назад
+function goBack() {
+    window.history.back();
+}

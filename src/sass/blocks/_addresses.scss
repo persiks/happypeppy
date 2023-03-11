@@ -2,6 +2,9 @@
     height: 630px;
     position: relative;
     &__info {
+        ::selection {
+            color: black;
+        }
         position: absolute;
         top: 0;
         left: 50%;

@@ -27,6 +27,18 @@
         padding-left: 6%;
         padding-right: 6%;
     }
+    .blog {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fit, 280px);
+            grid-auto-rows: 280px;
+            justify-content: space-around;
+            row-gap: 35px;
+            .horizonal, .vertical {
+                grid-row: unset;
+                grid-column: unset;
+            }
+        }
+    }
     .delivery {
         padding-left: 6%;
         padding-right: 6%;
@@ -75,6 +87,9 @@
     .carousel__inner {
         position: relative;
             width: 100%;
+    }
+    .blog {
+        padding-top: 40px;
     }
     .feed__descr {
         font-size: 12px;
@@ -169,6 +184,15 @@
     .catalog__tab {
         width: 100px;
         font-size: 14px;
+    }
+    .catalog-item {
+        width: 370px;
+    }
+    .catalog-item__img img {
+        width:335px;
+    }
+    .catalog-item__img img:hover {
+        width:335px;       
     }
     .promotion__detail {
         font-size: 10px;
