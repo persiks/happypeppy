@@ -1,0 +1,27 @@
+.header_blogs {
+    padding-left: 20%;
+    img {
+        width: 180px;
+        height: 100px;
+    }
+}
+.blogs {
+
+    ::selection {
+        color: rgb(113, 99, 238);
+    }
+
+    background-color: #f7fafc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__wrapper {
+        background-color: white;
+        width: 800px;
+        padding: 2% 2% 2% 2%;
+        font-size: 17px;
+        a {
+            color: rgb(113, 99, 238);
+        }
+    }
+}

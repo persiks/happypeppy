@@ -2,6 +2,13 @@
     background-color: black;
     height: 100%;
     .wrapper {
+        ::selection {
+            color: black;
+        }
+        h1 {
+            font-size: 30px;
+            text-align: center;
+        }
         display: block;
         position: relative;
         background-color: $main-color;
