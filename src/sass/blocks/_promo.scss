@@ -17,6 +17,11 @@
         a {
             color: white;
             text-decoration: none;
+            transition: 1s all ease-in;
+        }
+        :hover {
+            color: $main-color;
+            transition: all 1.5s;
         }
     }
     &__subheader {

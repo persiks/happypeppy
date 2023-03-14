@@ -34,9 +34,9 @@
         border: 5px solid #ccc;
         float: left;
         margin: 15px;
+        box-shadow: 3px 3px 20px black;
         transition: all 0.7s ease-out;
         &:hover {
-            margin-top: 2px;
             box-shadow: 3px 3px 20px $main-color;
             border: 5px solid $main-color;
             transition: all 1.0s;
