@@ -1,10 +1,11 @@
 .consultation {
     ::selection {
-        color: gainsboro;
+        color: beige;
     }
     min-height: 480px;
     padding: 100px 0 92px 0;
     background: url('../img/consultation.jpg') center (center/cover) no-repeat;
+    box-shadow: 3px 3px 20px black;
     &__descr {
         color: #ffffff;
         font-size: 20px;

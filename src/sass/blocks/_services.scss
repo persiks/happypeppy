@@ -1,8 +1,8 @@
 .services {
     min-height: 480px;
-    margin: 0 0 80px 0;
     padding: 70px 0 80px 0;
     background-color: #f6f6f6;
+    box-shadow: 3px 3px 20px black;
     .title {
         padding-bottom: 30px;
     }
@@ -21,6 +21,7 @@
         img {
             margin: 30px 20px 0 20px;
             width: 200px;
+            box-shadow: 3px 3px 20px black;
         }
     }
 }

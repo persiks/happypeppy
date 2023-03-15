@@ -3,10 +3,12 @@
     height: 5px;
     background-color: $main-color;
     margin: 25px auto 0 auto;
+    box-shadow: 3px 3px 20px black;
 }
 
 .blog {
     padding: 70px 0 80px 0;
+    box-shadow: 3px 3px 20px black;
     &__wrapper {
         margin-top: 60px;
         display: grid;
@@ -28,6 +30,7 @@
     &__item {
         transition: all 0.6s;
         position: relative;
+        box-shadow: 3px 3px 20px black;
         span {
             position: absolute;
             left: 0;

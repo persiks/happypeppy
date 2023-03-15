@@ -6,11 +6,9 @@
     }
 }
 .blogs {
-
     ::selection {
         color: rgb(113, 99, 238);
     }
-
     background-color: #f7fafc;
     display: flex;
     align-items: center;
@@ -20,6 +18,7 @@
         width: 800px;
         padding: 2% 2% 2% 2%;
         font-size: 17px;
+        box-shadow: 3px 3px 20px black;
         a {
             color: rgb(113, 99, 238);
         }
