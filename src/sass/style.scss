@@ -1,45 +1,45 @@
-@import 'libs/bootstrap-reboot.min';
-@import 'libs/font';
-@import 'libs/slick';
-@import 'libs/animate';
+@import "libs/bootstrap-reboot.min";
+@import "libs/font";
+@import "libs/slick";
+@import "libs/animate";
 
-@import 'base/variables';
-@import 'base/animation';
+@import "base/variables";
+@import "base/animation";
 
 * {
-    font-family: 'Museo Sans Cyrl', sans-serif;
+  font-family: "Museo Sans Cyrl", sans-serif;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .privacy {
-    padding: 20px 0 20px 0;
+  padding: 20px 0 20px 0;
 }
 
-@import 'blocks/header';
-@import 'blocks/promo';
-@import 'blocks/subheader';
-@import 'blocks/buttons';
-@import 'blocks/advantages';
-@import 'blocks/titles';
-@import 'blocks/consultation';
-@import 'blocks/forms';
-@import 'blocks/carousel';
-@import 'blocks/catalog';
-@import 'blocks/promotion';
-@import 'blocks/blog';
-@import 'blocks/sidepanel';
-@import 'blocks/blogs';
-@import 'blocks/delivery';
-@import 'blocks/warranty';
-@import 'blocks/services';
-@import 'blocks/feed';
-@import 'blocks/addresses';
-@import 'blocks/footer';
-@import 'blocks/modal';
-@import 'blocks/about';
-@import 'blocks/pageup';
-@import 'blocks/media';
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/subheader";
+@import "blocks/buttons";
+@import "blocks/advantages";
+@import "blocks/titles";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/carousel";
+@import "blocks/catalog";
+@import "blocks/promotion";
+@import "blocks/blog";
+@import "blocks/sidepanel";
+@import "blocks/blogs";
+@import "blocks/delivery";
+@import "blocks/warranty";
+@import "blocks/services";
+@import "blocks/feed";
+@import "blocks/addresses";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/about";
+@import "blocks/pageup";
+@import "blocks/media";
